@@ -1,12 +1,14 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 /**
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */
 class MockConsole {
-  constructor() {
+  constructor () {
     const proto = Object.getPrototypeOf(this);
-    if(!proto.instance){
+    if (!proto.instance) {
       this.log = console.log;
       this.info = console.info;
       this.error = console.error;
@@ -25,7 +27,6 @@ class MockConsole {
     console.log = () => {};
     console.info = () => {};
     console.error = () => {};
-    this.flush();
   }
 
   /**
@@ -56,4 +57,5 @@ class MockConsole {
   }
 }
 
-module.exports = MockConsole;
+exports.MockConsole = MockConsole;
+exports.default = MockConsole;

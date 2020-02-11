@@ -1,7 +1,7 @@
 /**
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */
-export default class MockConsole {
+export class MockConsole {
     log: (message?: any, ...optionalParams: any[]) => void;
     info: (message?: any, ...optionalParams: any[]) => void;
     error: (message?: any, ...optionalParams: any[]) => void;
@@ -25,3 +25,4 @@ export default class MockConsole {
      */
     flush(): void;
 }
+export { MockConsole as default };

@@ -2,9 +2,9 @@
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */
 export class MockConsole {
-  constructor() {
+  constructor () {
     const proto = Object.getPrototypeOf(this);
-    if(!proto.instance){
+    if (!proto.instance) {
       this.log = console.log;
       this.info = console.info;
       this.error = console.error;
@@ -23,7 +23,6 @@ export class MockConsole {
     console.log = () => {};
     console.info = () => {};
     console.error = () => {};
-    this.flush();
   }
 
   /**
@@ -54,4 +53,4 @@ export class MockConsole {
   }
 }
 
-export { MockConsole as default }
+export { MockConsole as default };
