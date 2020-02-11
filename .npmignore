@@ -1,0 +1,6 @@
+.config/
+.github/
+.vscode
+*.spec.js
+*.spec.cjs
+*.tgz
