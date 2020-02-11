@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
-  "description": "Console mock for testing",
+  "description": "Mock and trap the console for testing",
   "keywords": [
     "console",
     "mock",
@@ -22,6 +22,14 @@
     "test": "tape-es",
     "test:watch": "tape-watch-es",
     "lint": "semistandard",
+    "types": "npx tsc -p .config/jsconfig.json",
+    "build": "npm run build:cjs && npm run build:min && npm run build:typings",
+    "build:cjs": "npx rollup --config .config/cjs.config.js",
+    "build:min": "npx rollup --config .config/min.config.js",
+    "build:typings": "npx tsc -p .config/tsconfig.json",
+    "clean": "npm run clean:builds && npm run clean:typings",
+    "clean:builds": "npx rimraf index.cjs && npx rimraf index.min.js",
+    "clean:typings": "npx rimraf *.d.ts",
     "package": "npx rimraf package && npm pack | tail -n 1 | xargs tar -xf",
     "preversion": "npm test && npm run lint && npm run types",
     "postversion": "git push --follow-tags"
