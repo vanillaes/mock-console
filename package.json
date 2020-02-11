@@ -1,0 +1,37 @@
+{
+  "name": "mock-console-es",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
+  "description": "Console mock for testing",
+  "keywords": [
+    "console",
+    "mock",
+    "testing",
+    "esm"
+  ],
+  "repository": "https://github.com/vanillaes/console-mock-es/",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "tape-es",
+    "test:watch": "tape-watch-es",
+    "lint": "semistandard",
+    "package": "npx rimraf package && npm pack | tail -n 1 | xargs tar -xf",
+    "preversion": "npm test && npm run lint && npm run types",
+    "postversion": "git push --follow-tags"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=13.7"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  }
+}
