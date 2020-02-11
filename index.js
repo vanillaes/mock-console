@@ -2,8 +2,6 @@
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */
 export class MockConsole {
-  static instance;
-
   constructor () {
     if (MockConsole.instance) {
       return MockConsole.instance;
