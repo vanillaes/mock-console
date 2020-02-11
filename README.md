@@ -2,12 +2,12 @@
 
 Mock-Console-ES is a small ES module implementation of a console mock. It allows enabling, disabling, and capturing the output of the built-in console methods.
 
-[![GitHub Releases](https://badgen.net/github/tag/vanillaes/console-mock-es)](https://github.com/vanillaes/console-mock-es/releases)
-[![NPM Release](https://badgen.net/npm/v/console-mock-es)](https://www.npmjs.com/package/console-mock-es)
-[![Bundlephobia](https://badgen.net/bundlephobia/minzip/console-mock-es)](https://bundlephobia.com/result?p=console-mock-es)
-[![MIT License](https://badgen.net/github/license/vanillaes/console-mock-es)](https://raw.githubusercontent.com/vanillaes/console-mock-es/master/LICENSE)
-[![Latest Status](https://github.com/vanillaes/console-mock-es/workflows/Latest/badge.svg)](https://github.com/vanillaes/console-mock-es/actions)
-[![Release Status](https://github.com/vanillaes/console-mock-es/workflows/Release/badge.svg)](https://github.com/vanillaes/console-mock-es/actions)
+[![GitHub Releases](https://badgen.net/github/tag/vanillaes/mock-console-es)](https://github.com/vanillaes/mock-console-es/releases)
+[![NPM Release](https://badgen.net/npm/v/mock-console-es)](https://www.npmjs.com/package/mock-console-es)
+[![Bundlephobia](https://badgen.net/bundlephobia/minzip/mock-console-es)](https://bundlephobia.com/result?p=mock-console-es)
+[![MIT License](https://badgen.net/github/license/vanillaes/mock-console-es)](https://raw.githubusercontent.com/vanillaes/mock-console-es/master/LICENSE)
+[![Latest Status](https://github.com/vanillaes/mock-console-es/workflows/Latest/badge.svg)](https://github.com/vanillaes/mock-console-es/actions)
+[![Release Status](https://github.com/vanillaes/mock-console-es/workflows/Release/badge.svg)](https://github.com/vanillaes/mock-console-es/actions)
 
 <p align="center"><strong>⚠️ Notice: EcmaScript Module Support in Node is Experimental ⚠️</strong></p>
 
@@ -20,11 +20,11 @@ Mock-Console-ES is a small ES module implementation of a console mock. It allows
 ## Installation
 
 ```sh
-npm install console-mock-es
+npm install mock-console-es
 ```
 
 ```javascript
-import MockConsole from 'console-mock-es';
+import MockConsole from 'mock-console-es';
 ```
 
 ## Usage
