@@ -97,7 +97,7 @@ console.log(logger.logs);
 A `.cjs` bundle is included for CommonJS compatibility 
 
 ```javascript
-const MockConsole = require('mock-console-es');
+const { MockConsole } = require('mock-console-es');
 ```
 
 ## Typings
