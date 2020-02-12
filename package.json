@@ -12,7 +12,7 @@
   ],
   "repository": "https://github.com/vanillaes/console-mock-es/",
   "type": "module",
-  "main": "index.js",
+  "main": "index.cjs",
   "exports": {
     "import": "./index.js",
     "require": "./index.cjs"
