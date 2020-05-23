@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "This",
       "type": "node",
       "request": "launch",
-      "runtimeVersion": "13.7.0",
-      "name": "Test",
+      "runtimeVersion": "14.2.0",
       "program": "${file}"
     }
   ]
