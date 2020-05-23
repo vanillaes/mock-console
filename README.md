@@ -9,8 +9,6 @@ Mock-Console-ES is a small ES module implementation of a console mock. It allows
 [![Latest Status](https://github.com/vanillaes/mock-console-es/workflows/Latest/badge.svg)](https://github.com/vanillaes/mock-console-es/actions)
 [![Release Status](https://github.com/vanillaes/mock-console-es/workflows/Release/badge.svg)](https://github.com/vanillaes/mock-console-es/actions)
 
-<p align="center"><strong>⚠️ Notice: EcmaScript Module Support in Node is Experimental ⚠️</strong></p>
-
 ## Features
 
 - ECMAScript Module
