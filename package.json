@@ -1,6 +1,6 @@
 {
   "name": "mock-console-es",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "description": "Mock and trap the console for testing",
