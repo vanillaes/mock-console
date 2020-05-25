@@ -1,13 +1,13 @@
-<h1 align="center">Mock-Console-ES</h1>
+<h1 align="center">Mock-Console</h1>
 
-Mock-Console-ES is a small ES module implementation of a console mock. It allows enabling, disabling, and capturing the output of the built-in console methods.
+Mock-Console is a small ES module implementation of a console mock. It allows enabling, disabling, and capturing the output of the built-in console methods.
 
-[![GitHub Releases](https://badgen.net/github/tag/vanillaes/mock-console-es)](https://github.com/vanillaes/mock-console-es/releases)
-[![NPM Release](https://badgen.net/npm/v/mock-console-es)](https://www.npmjs.com/package/mock-console-es)
-[![Bundlephobia](https://badgen.net/bundlephobia/minzip/mock-console-es)](https://bundlephobia.com/result?p=mock-console-es)
-[![MIT License](https://badgen.net/github/license/vanillaes/mock-console-es)](https://raw.githubusercontent.com/vanillaes/mock-console-es/master/LICENSE)
-[![Latest Status](https://github.com/vanillaes/mock-console-es/workflows/Latest/badge.svg)](https://github.com/vanillaes/mock-console-es/actions)
-[![Release Status](https://github.com/vanillaes/mock-console-es/workflows/Release/badge.svg)](https://github.com/vanillaes/mock-console-es/actions)
+[![GitHub Releases](https://badgen.net/github/tag/vanillaes/mock-console)](https://github.com/vanillaes/mock-console/releases)
+[![NPM Release](https://badgen.net/npm/v/@vanillaes/mock-console)](https://www.npmjs.com/package/@vanillaes/mock-console)
+[![Bundlephobia](https://badgen.net/bundlephobia/minzip/@vanillaes/mock-console)](https://bundlephobia.com/result?p=@vanillaes/mock-console)
+[![MIT License](https://badgen.net/github/license/vanillaes/mock-console)](https://raw.githubusercontent.com/vanillaes/mock-console/master/LICENSE)
+[![Latest Status](https://github.com/vanillaes/mock-console/workflows/Latest/badge.svg)](https://github.com/vanillaes/mock-console/actions)
+[![Release Status](https://github.com/vanillaes/mock-console/workflows/Release/badge.svg)](https://github.com/vanillaes/mock-console/actions)
 
 ## Features
 
@@ -18,11 +18,11 @@ Mock-Console-ES is a small ES module implementation of a console mock. It allows
 ## Installation
 
 ```sh
-npm install mock-console-es
+npm install @vanillaes/mock-console
 ```
 
 ```javascript
-import MockConsole from 'mock-console-es';
+import MockConsole from '@vanillaes/mock-console';
 ```
 
 ## Usage
@@ -95,7 +95,7 @@ console.log(logger.logs);
 A `.cjs` bundle is included for CommonJS compatibility 
 
 ```javascript
-const { MockConsole } = require('mock-console-es');
+const { MockConsole } = require('@vanillaes/mock-console');
 ```
 
 ## Typings
