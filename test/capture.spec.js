@@ -1,5 +1,5 @@
 import test from 'tape';
-import { MockConsole } from 'mock-console-es';
+import { MockConsole } from '@vanillaes/mock-console';
 
 test('MockConsole.capture() - Should should capture logs', (t) => {
   const mc = new MockConsole();

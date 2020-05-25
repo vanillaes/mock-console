@@ -1,5 +1,5 @@
 const test = require('tape');
-const { MockConsole } = require('mock-console-es');
+const { MockConsole } = require('@vanillaes/mock-console');
 
 test('Compat - Ensure the package works with CommonJS', (t) => {
   const mc = new MockConsole();

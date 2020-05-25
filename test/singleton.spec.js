@@ -1,5 +1,5 @@
 import test from 'tape';
-import { MockConsole } from 'mock-console-es';
+import { MockConsole } from '@vanillaes/mock-console';
 
 test('Singleton - MockConsole should be a singleton', (t) => {
   const mc = new MockConsole();

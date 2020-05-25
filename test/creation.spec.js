@@ -1,6 +1,6 @@
 /* eslint-disable */
 import test from 'tape';
-import { MockConsole } from 'mock-console-es';
+import { MockConsole } from '@vanillaes/mock-console';
 
 test('new MockConsole() - test the creation of the mock', (t) => {
   const mc = new MockConsole();

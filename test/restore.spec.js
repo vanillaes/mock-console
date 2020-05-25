@@ -1,5 +1,5 @@
 import test from 'tape';
-import { MockConsole } from 'mock-console-es';
+import { MockConsole } from '@vanillaes/mock-console';
 
 test('MockConsole.restore() - Should restore built-in logging', (t) => {
   const mc = new MockConsole();
