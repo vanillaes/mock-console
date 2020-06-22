@@ -17,7 +17,7 @@ class MockConsole {
       this.errors = [];
       proto.instance = this;
     }
-    return proto.instance;
+    return proto.instance
   }
 
   /**

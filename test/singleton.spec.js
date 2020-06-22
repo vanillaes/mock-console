@@ -1,11 +1,11 @@
-import test from 'tape';
-import { MockConsole } from '@vanillaes/mock-console';
+import test from 'tape'
+import { MockConsole } from '@vanillaes/mock-console'
 
 test('Singleton - MockConsole should be a singleton', (t) => {
-  const mc = new MockConsole();
-  const mc2 = new MockConsole();
+  const mc = new MockConsole()
+  const mc2 = new MockConsole()
 
-  t.equal(mc, mc2, 'MockConsoles should all point to the same instance');
+  t.equal(mc, mc2, 'MockConsoles should all point to the same instance')
 
-  t.end();
-});
+  t.end()
+})
