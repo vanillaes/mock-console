@@ -2,9 +2,9 @@
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */
 export class MockConsole {
-    log: (message?: any, ...optionalParams: any[]) => void;
-    info: (message?: any, ...optionalParams: any[]) => void;
-    error: (message?: any, ...optionalParams: any[]) => void;
+    log: (...data: any[]) => void;
+    info: (...data: any[]) => void;
+    error: (...data: any[]) => void;
     logs: any[];
     infos: any[];
     errors: any[];
