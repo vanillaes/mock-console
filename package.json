@@ -1,6 +1,6 @@
 {
   "name": "@vanillaes/mock-console",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "license": "MIT",
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "description": "Mock the 'console' (ie log, info, error) for testing",
