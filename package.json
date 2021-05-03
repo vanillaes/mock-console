@@ -10,7 +10,7 @@
     "testing",
     "esm"
   ],
-  "repository": "https://github.com/vanillaes/mock-console/",
+  "repository": "https://github.com/vanillaes/mock-console",
   "type": "module",
   "main": "index.cjs",
   "exports": {
