@@ -52,5 +52,3 @@ export class MockConsole {
     this.errors = []
   }
 }
-
-export { MockConsole as default }

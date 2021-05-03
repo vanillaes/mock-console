@@ -58,4 +58,3 @@ class MockConsole {
 }
 
 exports.MockConsole = MockConsole;
-exports.default = MockConsole;
