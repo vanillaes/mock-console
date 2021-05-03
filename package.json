@@ -5,10 +5,11 @@
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "description": "Mock the 'console' (ie log, info, error) for testing",
   "keywords": [
+    "esm",
+    "esmodules",
     "console",
-    "mock",
     "testing",
-    "esm"
+    "mock"
   ],
   "repository": "https://github.com/vanillaes/mock-console",
   "type": "module",
