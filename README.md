@@ -2,12 +2,13 @@
 
 Mock-Console is a small ES module implementation of a console mock. It allows enabling, disabling, and capturing the output of the built-in console methods.
 
-[![GitHub Releases](https://badgen.net/github/tag/vanillaes/mock-console)](https://github.com/vanillaes/mock-console/releases)
-[![NPM Release](https://badgen.net/npm/v/@vanillaes/mock-console)](https://www.npmjs.com/package/@vanillaes/mock-console)
-[![Bundlephobia](https://badgen.net/bundlephobia/minzip/@vanillaes/mock-console)](https://bundlephobia.com/result?p=@vanillaes/mock-console)
-[![MIT License](https://badgen.net/github/license/vanillaes/mock-console)](https://raw.githubusercontent.com/vanillaes/mock-console/master/LICENSE)
-[![Latest Status](https://github.com/vanillaes/mock-console/workflows/Latest/badge.svg)](https://github.com/vanillaes/mock-console/actions)
-[![Release Status](https://github.com/vanillaes/mock-console/workflows/Release/badge.svg)](https://github.com/vanillaes/mock-console/actions)
+<div align="center">
+  <a href="https://github.com/vanillaes/mock-console/releases"><img src="https://badgen.net/github/tag/vanillaes/mock-console" alt="GitHub Release"></a>
+  <a href="https://www.npmjs.com/package/@vanillaes/mock-console"><img src="https://badgen.net/npm/v/@vanillaes/mock-console" alt="NPM Release"></a>
+  <a href="https://bundlephobia.com/result?p=@vanillaes/mock-console"><img src="https://badgen.net/bundlephobia/minzip/@vanillaes/mock-console" alt="Bundlephobia"></a>
+  <a href="https://github.com/vanillaes/mock-console/actions"><img src="https://github.com/vanillaes/mock-console/workflows/Latest/badge.svg" alt="Latest Status"></a>
+  <a href="https://github.com/vanillaes/mock-console/actions"><img src="https://github.com/vanillaes/mock-console/workflows/Release/badge.svg" alt="Release Status"></a>
+</div>
 
 ## Features
 
