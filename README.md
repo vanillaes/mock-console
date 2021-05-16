@@ -8,6 +8,8 @@ Mock-Console is a small ES module implementation of a console mock. It allows en
   <a href="https://bundlephobia.com/result?p=@vanillaes/mock-console"><img src="https://badgen.net/bundlephobia/minzip/@vanillaes/mock-console" alt="Bundlephobia"></a>
   <a href="https://github.com/vanillaes/mock-console/actions"><img src="https://github.com/vanillaes/mock-console/workflows/Latest/badge.svg" alt="Latest Status"></a>
   <a href="https://github.com/vanillaes/mock-console/actions"><img src="https://github.com/vanillaes/mock-console/workflows/Release/badge.svg" alt="Release Status"></a>
+
+  <a href="https://discord.gg/aSWYgtybzV"><img alt="Discord" src="https://img.shields.io/discord/723296249121603604?color=%23738ADB"></a>
 </div>
 
 ## Features
