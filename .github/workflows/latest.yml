@@ -1,6 +1,12 @@
 name: Latest
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+    tags-ignore:
+      - v*
+  pull_request:
 
 jobs:
   verify:
