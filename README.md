@@ -15,17 +15,42 @@ Mock-Console is a small ES module implementation of a console mock. It allows en
 ## Features
 
 - ECMAScript Module
-- CommonJS Bundle Included
 - Typescript Compatible
 
-## Installation
+## Imports
+
+This package works isomorphically in browser and server-side JavaScript
+
+### Browser
+
+Import directly from the local path or a CDN
+
+```html
+<script type="module">
+import { MockConsole } from 'path/to/mock-console/index.js'
+</script>
+```
+
+The minified version can be imported from
+
+```html
+<script type="module">
+import { MockConsole } from 'path/to/mock-console/index.min.js'
+</script>
+```
+
+### Node
+
+Install the package
 
 ```sh
 npm install @vanillaes/mock-console
 ```
 
+Import using the module path
+
 ```javascript
-import MockConsole from '@vanillaes/mock-console';
+import { MockConsole } from '@vanillaes/mock-console'
 ```
 
 ## Usage
@@ -91,14 +116,6 @@ console.log(logger.logs);
 logger.flush();
 console.log(logger.logs);
 > []
-```
-
-## CommonJS
-
-A `.cjs` bundle is included for CommonJS compatibility 
-
-```javascript
-const MockConsole = require('@vanillaes/mock-console').MockConsole;
 ```
 
 ## Typings
