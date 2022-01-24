@@ -8,6 +8,7 @@ test('MockConsole.restore() - Should restore built-in logging', (t) => {
 
   t.equal(mc.log, console.log, 'console.log() should be restored')
   t.equal(mc.info, console.info, 'console.info() should be restored')
+  t.equal(mc.warn, console.warn, 'console.warn() should be restored')
   t.equal(mc.error, console.error, 'console.error() should be restored')
 
   t.end()

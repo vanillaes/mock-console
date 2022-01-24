@@ -63,7 +63,7 @@ import { MockConsole } from '@vanillaes/mock-console'
 
 ### MockConsole.disable()
 
-Disables the built-in console methods (ie `log`, `info`, `error`)
+Disables the built-in console methods (ie `log`, `info`, `warn`, `error`)
 
 ```javascript
 const logger = new MockConsole();
@@ -100,6 +100,7 @@ console.log(logger.logs);
 Captured logs are stored in an array
 - `console.log` -> `MockConsole.logs[]`
 - `console.info` -> `MockConsole.infos[]`
+- `console.warn` -> `MockConsole.warns[]`
 - `console.error` -> `MockConsole.errors[]`
 
 ### MockConsole.flush()

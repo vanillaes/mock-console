@@ -4,9 +4,11 @@
 export class MockConsole {
     log: (...data: any[]) => void;
     info: (...data: any[]) => void;
+    warn: (...data: any[]) => void;
     error: (...data: any[]) => void;
     logs: any[];
     infos: any[];
+    warns: any[];
     errors: any[];
     /**
      * Disable the console built-in methods

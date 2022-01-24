@@ -7,9 +7,11 @@ export class MockConsole {
     if (!proto.instance) {
       this.log = console.log
       this.info = console.info
+      this.warn = console.warn
       this.error = console.error
       this.logs = []
       this.infos = []
+      this.warns = []
       this.errors = []
       proto.instance = this
     }
@@ -22,6 +24,7 @@ export class MockConsole {
   disable () {
     console.log = () => {}
     console.info = () => {}
+    console.warn = () => {}
     console.error = () => {}
   }
 
@@ -31,6 +34,7 @@ export class MockConsole {
   capture () {
     console.log = log => { this.logs.push(log) }
     console.info = info => { this.infos.push(info) }
+    console.warn = warn => { this.warns.push(warn) }
     console.error = err => { this.errors.push(err) }
   }
 
@@ -40,6 +44,7 @@ export class MockConsole {
   restore () {
     console.log = this.log
     console.info = this.info
+    console.warn = this.warn
     console.error = this.error
   }
 
@@ -49,6 +54,7 @@ export class MockConsole {
   flush () {
     this.logs = []
     this.infos = []
+    this.warns = []
     this.errors = []
   }
 }

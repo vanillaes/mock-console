@@ -6,14 +6,17 @@ test('MockConsole.capture() - Should should capture logs', (t) => {
   mc.capture()
   const log = 'console.log captured'
   const info = 'console.info captured'
+  const warn = 'console.warn captured'
   const error = 'console.error captured'
   console.log(log)
   console.info(info)
+  console.warn(warn)
   console.error(error)
   mc.restore()
 
   t.deepEqual(mc.logs, [log], 'console.log() should be captured')
   t.deepEqual(mc.infos, [info], 'console.info() should be captured')
+  t.deepEqual(mc.warns, [warn], 'console.warn() should be captured')
   t.deepEqual(mc.errors, [error], 'console.error() should be captured')
 
   t.end()
