@@ -5,8 +5,11 @@ export class MockConsole {
   constructor () {
     const proto = Object.getPrototypeOf(this)
     if (!proto.instance) {
+      /** @type {(...data: any[]) => void} */
       this.log = console.log
+      /** @type {(...data: any[]) => void} */
       this.info = console.info
+      /** @type {(...data: any[]) => void} */
       this.error = console.error
       this.logs = []
       this.infos = []
@@ -29,9 +32,9 @@ export class MockConsole {
    * Capture the output of the console built-ins
    */
   capture () {
-    console.log = log => { this.logs.push(log) }
-    console.info = info => { this.infos.push(info) }
-    console.error = err => { this.errors.push(err) }
+    console.log = log => { this.logs?.push(log) }
+    console.info = info => { this.infos?.push(info) }
+    console.error = err => { this.errors?.push(err) }
   }
 
   /**
