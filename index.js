@@ -5,11 +5,11 @@ export class MockConsole {
   constructor () {
     const proto = Object.getPrototypeOf(this)
     if (!proto.instance) {
-      /** @type {(...data: any[]) => void} */
+      /** @type {(...data: []) => void} */
       this.log = console.log
-      /** @type {(...data: any[]) => void} */
+      /** @type {(...data: []) => void} */
       this.info = console.info
-      /** @type {(...data: any[]) => void} */
+      /** @type {(...data: []) => void} */
       this.error = console.error
       this.logs = []
       this.infos = []

@@ -2,12 +2,15 @@
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */
 export class MockConsole {
-    log: (...data: any[]) => void;
-    info: (...data: any[]) => void;
-    error: (...data: any[]) => void;
-    logs: any[];
-    infos: any[];
-    errors: any[];
+    /** @type {(...data: []) => void} */
+    log: (...data: []) => void;
+    /** @type {(...data: []) => void} */
+    info: (...data: []) => void;
+    /** @type {(...data: []) => void} */
+    error: (...data: []) => void;
+    logs: any[] | undefined;
+    infos: any[] | undefined;
+    errors: any[] | undefined;
     /**
      * Disable the console built-in methods
      */
