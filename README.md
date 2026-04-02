@@ -6,7 +6,6 @@ Mock-Console is a small ES module implementation of a console mock. It allows en
   <a href="https://github.com/vanillaes/mock-console/releases"><img src="https://badgen.net/github/tag/vanillaes/mock-console?cache-control=no-cache" alt="GitHub Release"></a>
   <a href="https://www.npmjs.com/package/@vanillaes/mock-console"><img src="https://badgen.net/npm/v/@vanillaes/mock-console?icon=npm" alt="NPM Version"></a>
   <a href="https://www.npmjs.com/package/@vanillaes/mock-console"><img src="https://badgen.net/npm/dm/@vanillaes/mock-console?icon=npm" alt="NPM Downloads"></a>
-  <a href="https://bundlephobia.com/result?p=@vanillaes/mock-console"><img src="https://badgen.net/bundlephobia/minzip/@vanillaes/mock-console" alt="Bundlephobia"></a>
   <a href="https://github.com/vanillaes/mock-console/actions"><img src="https://github.com/vanillaes/mock-console/workflows/Latest/badge.svg" alt="Latest Status"></a>
   <a href="https://github.com/vanillaes/mock-console/actions"><img src="https://github.com/vanillaes/mock-console/workflows/Release/badge.svg" alt="Release Status"></a>
 </div>
