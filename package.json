@@ -21,13 +21,11 @@
   "scripts": {
     "test": "esmtk test",
     "lint": "esmtk lint",
-    "type": "esmtk type src/index.js",
-    "build": "npm run build:min && npm run build:typings",
-    "build:min": "esmtk minify src/index.js src/index.min.js",
-    "build:typings": "esmtk typings src/index.js",
-    "clean": "npm run clean:min && npm run clean:typings",
-    "clean:min": "esmtk clean --minify",
-    "clean:typings": "esmtk clean --typings",
+    "type": "esmtk type",
+    "build": "npm run build:minify && npm run build:typings",
+    "build:minify": "esmtk minify",
+    "build:typings": "esmtk typings",
+    "clean": "esmtk clean --minify --typings",
     "preview": "esmtk preview",
     "preversion": "npm test && npm run lint && npm run type",
     "postversion": "git push --follow-tags"
