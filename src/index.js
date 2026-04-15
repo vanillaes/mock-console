@@ -10,9 +10,12 @@ export class MockConsole {
       /** @type {(...data: []) => void} */
       this.info = console.info
       /** @type {(...data: []) => void} */
+      this.warn = console.warn
+      /** @type {(...data: []) => void} */
       this.error = console.error
       this.logs = []
       this.infos = []
+      this.warnings = []
       this.errors = []
       proto.instance = this
     }
@@ -25,6 +28,7 @@ export class MockConsole {
   disable () {
     console.log = () => {}
     console.info = () => {}
+    console.warn = () => {}
     console.error = () => {}
   }
 
@@ -34,6 +38,7 @@ export class MockConsole {
   capture () {
     console.log = log => { this.logs?.push(log) }
     console.info = info => { this.infos?.push(info) }
+    console.warn = warn => { this.warnings?.push(warn) }
     console.error = err => { this.errors?.push(err) }
   }
 
@@ -43,6 +48,7 @@ export class MockConsole {
   restore () {
     console.log = this.log
     console.info = this.info
+    console.warn = this.warn
     console.error = this.error
   }
 
@@ -52,6 +58,7 @@ export class MockConsole {
   flush () {
     this.logs = []
     this.infos = []
+    this.warnings = []
     this.errors = []
   }
 }

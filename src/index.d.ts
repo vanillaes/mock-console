@@ -7,9 +7,12 @@ export class MockConsole {
     /** @type {(...data: []) => void} */
     info: (...data: []) => void;
     /** @type {(...data: []) => void} */
+    warn: (...data: []) => void;
+    /** @type {(...data: []) => void} */
     error: (...data: []) => void;
     logs: any[] | undefined;
     infos: any[] | undefined;
+    warnings: any[] | undefined;
     errors: any[] | undefined;
     /**
      * Disable the console built-in methods
