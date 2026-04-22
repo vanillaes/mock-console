@@ -1,6 +1,6 @@
 {
   "name": "@vanillaes/mock-console",
-  "version": "4.1.2",
+  "version": "4.2.0",
   "license": "MIT",
   "exports": {
     ".": "./src/index.js"
