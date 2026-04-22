@@ -30,7 +30,7 @@
     "preversion": "npm test && npm run lint && npm run type",
     "postversion": "git push --follow-tags"
   },
-  "dependencies": {
-    "@vanillaes/esmtk": "^2.0.2"
+  "devDependencies": {
+    "@vanillaes/esmtk": "^2.5.0"
   }
 }
