@@ -1,3 +1,4 @@
+/* @ts-self-types="./index.d.ts" */
 /**
  * MockConsole class used to manage the 'console' built-in methods (ex log, info, error)
  */

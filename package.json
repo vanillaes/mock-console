@@ -22,12 +22,11 @@
     "test": "esmtk test",
     "lint": "esmtk lint",
     "type": "esmtk type",
-    "build": "npm run build:minify && npm run build:typings",
-    "build:minify": "esmtk minify",
-    "build:typings": "esmtk typings",
+    "build": "esmtk minify && esmtk typings",
     "clean": "esmtk clean --minify --typings",
     "preview": "esmtk preview",
     "preversion": "npm test && npm run lint && npm run type",
+    "version": "npm run clean && npm run build && git add **/*.d.ts",
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {

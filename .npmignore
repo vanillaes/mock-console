@@ -2,3 +2,4 @@
 .github/
 .vscode/
 *.spec.js
+jsr.json
